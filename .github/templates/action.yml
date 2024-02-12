@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: self-hosted
     
-runs:
-  using: "composite"
-  steps:
-    - name: Run test job
-      run: mvn test
+    runs:
+      using: "composite"
+      steps:
+        - name: Run test job
+          run: mvn test
