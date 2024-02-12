@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: self-hosted
-
-    steps:
-      - name: Run test job
-        run: mvn test
+    
+runs:
+  steps:
+    - name: Run test job
+      run: mvn test
